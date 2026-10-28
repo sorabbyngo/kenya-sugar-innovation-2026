@@ -1,171 +1,192 @@
-# Kenya Sugar Industry Innovation 2026
+# SukariSol
+### AI-Assisted Intelligence and Interoperability for Kenya's Sugar Value Chain
 
-Research, engineering, and practical innovation for Kenya's sugar
-value chain — from sugarcane agriculture to processing, marketing,
-distribution, and sustainable by-product utilization.
+SukariSol is a proposed integrated digital platform designed to connect the people, operations, and systems involved in Kenya's sugar industry. It combines farm and geospatial information, harvest logistics, delivery records, mill operations, market information, and by-product opportunities in one extensible platform.
 
-This project is being developed in response to the
-**Sugar Industry Innovation Symposium & Expo 2026**, organized by
-the Kenya Sugar Board.
+The project is being developed for the **Sugar Industry Innovation Symposium & Expo 2026**.
 
-## Mission
+> **Project status:** Early development. The architecture and modules described here are the product vision and roadmap, not a claim that every capability is already implemented.
 
-Identify a real, evidence-backed problem in Kenya's sugar industry
-and develop a practical, measurable, and commercially viable solution.
+## The problem
 
-We aim to combine industry research, stakeholder feedback, software
-engineering, data analysis, and business-model development.
+The sugar value chain involves farmers, outgrower organizations, transporters, weighbridges, mills, distributors, and other stakeholders. When their data and workflows are fragmented, it can be difficult to coordinate harvests, track deliveries, reconcile records, plan operations, and provide timely information to farmers and decision-makers.
 
-## Research Scope
+SukariSol aims to improve coordination and visibility while working with existing systems wherever practical, rather than requiring every organization to replace its current software.
 
-We are investigating opportunities across the entire value chain:
+## The vision: one platform, three pillars
 
-- **Agriculture:** farm productivity, soil health, crop management,
-  weather resilience, and farmer access to information.
-- **Harvesting and logistics:** harvest scheduling, transport
-  coordination, delivery delays, and cane supply planning.
-- **Processing:** factory efficiency, downtime, quality control,
-  energy utilization, and sugar recovery.
-- **Marketing and distribution:** demand forecasting, inventory,
-  market access, delivery planning, and supply-chain visibility.
-- **Circular economy:** bagasse, molasses, filter cake, renewable
-  energy, and opportunities for by-product commercialization.
-- **Farmer services and governance:** transparent records, payments,
-  operational accountability, and accessible digital services.
+### 1. SukariSol Intelligence
 
-## Initial Innovation Hypotheses
+A shared analytics and AI capability that can use authorized data from connected modules and systems.
 
-These are research directions, not yet validated conclusions.
+Planned capabilities include:
 
-| Candidate | Problem to investigate | Potential approach |
+- **Geospatial and field intelligence:** farm mapping, field boundaries, crop-stage records, satellite-derived indicators, and harvest-readiness estimates.
+- **Agricultural decision support:** insights that may support crop monitoring and agronomic interventions when suitable data is available.
+- **Logistics intelligence:** collection planning, delivery monitoring, fleet coordination, and analysis of delays.
+- **Farmer and delivery insights:** consolidated records and transparent delivery-to-payment status, subject to appropriate access permissions.
+- **Mill and operational analytics:** downtime trends, maintenance indicators, and production-planning support.
+- **Anomaly detection and forecasting:** flags for unusual records and forecasts where sufficient reliable historical data exists.
+
+AI-generated insights will be treated as decision support. Estimates will be distinguished from verified measurements, and consequential discrepancies will be reviewed by authorized people.
+
+### 2. SukariSol Connect
+
+An interoperability layer intended to connect SukariSol to the systems stakeholders already use.
+
+Potential integration methods include:
+
+- REST APIs and webhooks.
+- CSV and spreadsheet imports and exports.
+- Approved database interfaces or views.
+- Device or vendor-specific interfaces where documented and supported.
+- Controlled data exchange with enterprise systems, mobile applications, and smart weighbridges.
+
+For a smart-weighbridge integration, SukariSol could ingest ticket identifiers, truck details, timestamps, gross and tare weights, and calculated net weights when the source system provides them. It could match tickets to delivery records, identify duplicates or unusual inconsistencies, and send flagged cases for review.
+
+Integration availability depends on the source system's interfaces, permissions, data quality, and vendor support. The platform will not silently change official weights or treat an anomaly as proof of misconduct.
+
+### 3. SukariSol Modules
+
+The platform will grow through connected modules that share identities, permissions, data definitions, and workflows.
+
+| Module | Purpose |
+| --- | --- |
+| **CaneYield / CaneVision** | Farm registry, geospatial mapping, field information, and crop insights |
+| **CaneFlow** | Harvest scheduling, collection orders, truck assignments, and delivery tracking |
+| **FairCane / CaneTrust** | Delivery reconciliation, payment-status visibility, and discrepancy review |
+| **MillMind** | Mill operations, downtime analysis, and maintenance support |
+| **SugarMarket** | Inventory, demand, distribution, and market intelligence |
+| **CaneCycle / ByProduct Hub** | Discovery and coordination of sugar-industry by-product opportunities |
+| **CaneDoctor** | Agronomy information and farmer decision support |
+| **ShambaScore / SukariSol Capital** | Potential financing-readiness insights, subject to suitable data and safeguards |
+| **SugarShield** | Traceability and record provenance |
+| **OutGrower OS** | Outgrower administration and stakeholder workflows |
+| **Miwa Mkononi** | Farmer-facing mobile experience |
+| **SukariSol Command Center** | Role-appropriate operational dashboards and alerts |
+
+These are planned capabilities. Module boundaries and names may evolve during stakeholder validation and implementation.
+
+## First demonstrable workflow
+
+The first milestone will focus on a small, testable end-to-end workflow:
+
+1. Register a farmer and farm.
+2. Record farm location, acreage, and crop stage.
+3. Record an estimated harvest window, clearly marked as an estimate.
+4. Create a cane collection order and assign a truck.
+5. Record or import a sample weighbridge ticket.
+6. Match the ticket to the expected delivery.
+7. Display delivery status and flag records that need review.
+8. Show the reconciliation status to authorized users.
+
+This workflow can initially use clearly labelled synthetic demonstration data and sample CSV files. Live satellite services, actual weighbridge connections, payment-provider integrations, and predictive models will be added only after their data and access requirements are understood.
+
+## Proposed technology stack
+
+| Layer | Technology | Intended role |
 | --- | --- | --- |
-| CaneFlow | Harvest-to-mill coordination | Scheduling and logistics optimization |
-| MillMind | Unplanned factory downtime | Maintenance analytics and risk alerts |
-| CaneYield | Farm productivity constraints | Field-level data and agronomic decision support |
-| ByProduct Hub | Underutilized by-products | Buyer-supplier matching and resource planning |
-| FairCane | Delivery-to-payment reconciliation | Transparent records and discrepancy detection |
-| SugarMarket | Inventory and distribution inefficiencies | Demand forecasting and replenishment planning |
+| Web frontend | React, TypeScript, Vite | Responsive user interface |
+| Backend API | Python, FastAPI | Business logic, validation, and REST endpoints |
+| Database | PostgreSQL, PostGIS | Relational records and geospatial data |
+| Data analysis | Python analytics libraries | Transparent calculations, quality checks, and forecasting experiments |
+| Mapping | Web mapping library and suitable geospatial data sources | Farm and operational maps |
+| Integration | API adapters, import/export pipelines, and documented connectors | Interoperability with external systems |
+| Testing and delivery | Automated tests, Git, and Docker where useful | Reliability and reproducible development |
 
-The team will compare these options against industry evidence,
-existing solutions, feasibility, expected impact, and commercial
-potential before selecting a primary project.
+The initial design will favor a modular application with clear internal boundaries. Components may be separated into independent services later if scale, reliability, security, or deployment requirements justify doing so.
 
-## Our Approach
+## Core engineering principles
 
-1. Research the Kenyan sugar industry using credible sources.
-2. Map stakeholders, workflows, and existing technologies.
-3. Validate problem statements through interviews and available data.
-4. Estimate the economic, operational, and social impact of each
-   shortlisted opportunity.
-5. Select a problem and define a measurable baseline.
-6. Build a proof of concept around the most important workflow.
-7. Test the solution against realistic scenarios or verified data.
-8. Develop a pilot plan, commercialization strategy, and roadmap.
+- **Integration-first:** reuse existing systems and avoid unnecessary duplication.
+- **Security and privacy:** apply authentication, role-based authorization, input validation, secure configuration, and audit trails.
+- **Data quality:** validate incoming records and retain source identifiers and timestamps where available.
+- **Responsible analytics:** explain flags and assumptions; keep people responsible for consequential decisions.
+- **Clear provenance:** distinguish source records, derived metrics, estimates, and synthetic demonstration data.
+- **Practical accessibility:** design responsive, mobile-friendly workflows and consider low-bandwidth use.
+- **Measurable impact:** evaluate performance against a baseline instead of assuming benefits.
+- **Incremental delivery:** build and test one useful workflow before expanding the scope.
 
-## Proposed Technical Principles
+## Development roadmap
 
-The final architecture will depend on the selected problem.
+### Phase 1 — Foundation
+- Inspect and organize the existing repository.
+- Establish the React frontend and FastAPI backend.
+- Define configuration, database models, API conventions, and tests.
+- Build the first farm registry and dashboard.
 
-Our engineering priorities are:
+### Phase 2 — End-to-end workflow
+- Add harvest planning, collection orders, and truck assignments.
+- Implement delivery records and sample weighbridge CSV import.
+- Match records and present reviewable discrepancies.
+- Demonstrate delivery and reconciliation status.
 
-- Modular, maintainable architecture.
-- Data-driven decisions with explainable assumptions.
-- Mobile-friendly interfaces and low-bandwidth usability where needed.
-- Interoperability with existing systems where feasible.
-- Privacy, access control, and secure handling of industry data.
-- Clear separation between verified data, estimates, and synthetic
-  demonstration data.
-- Measurable performance against a defined baseline.
+### Phase 3 — Interoperability
+- Define connector contracts and data mappings.
+- Test imports and exports against documented sample formats.
+- Integrate an external system only when its API, permissions, and technical requirements are confirmed.
 
-We will avoid introducing AI, blockchain, IoT, or other technologies
-unless they provide a clear advantage over simpler alternatives.
+### Phase 4 — Intelligence
+- Add geospatial indicators and transparent operational analytics.
+- Evaluate forecasting and anomaly-detection methods against suitable data.
+- Document accuracy, uncertainty, limitations, and human-review procedures.
 
-## Project Status
+### Phase 5 — Pilot and evaluation
+- Validate workflows with relevant stakeholders.
+- Establish baselines and measure operational outcomes.
+- Refine usability, access controls, reliability, and the implementation plan.
 
-**Phase:** Industry research and problem validation.
+## How we will evaluate the pilot
 
-No candidate solution is considered validated until the team has
-reviewed relevant evidence and, where possible, consulted stakeholders.
+Measures will be selected with stakeholders and compared with a documented baseline. Candidate indicators include:
 
-## Repository Structure
+- Time required to plan and coordinate cane collection.
+- Delivery-record matching rate and reconciliation time.
+- Frequency of duplicate, incomplete, or inconsistent records.
+- Time taken to identify and review delivery discrepancies.
+- Accuracy of harvest-readiness or yield estimates where ground truth is available.
+- User adoption, task completion, and system reliability.
+
+Targets will be set only after the baseline, data availability, and pilot scope are understood.
+
+## Repository structure
 
 ```text
 kenya-sugar-innovation-2026/
 ├── README.md
-├── research/
-│   ├── industry-overview.md
-│   ├── problem-analysis.md
-│   ├── existing-solutions.md
-│   └── sources.md
 ├── docs/
-│   ├── stakeholder-interviews.md
-│   ├── solution-proposal.md
-│   ├── architecture.md
-│   └── pilot-and-business-model.md
+│   └── SukariSol_Innovation_Paper.pdf
+├── research/
 ├── data/
-│   └── README.md
 └── prototype/
-    └── README.md
 ```
 
-This is the intended structure. Directories will be added as the
-project develops.
-
-## Team Collaboration
-
-We use GitHub issues to track research questions and tasks, branches
-for independent work, and pull requests for reviewing changes.
-
-Suggested labels:
-
-- `research`
-- `agriculture`
-- `processing`
-- `logistics`
-- `marketing`
-- `sustainability`
-- `engineering`
-- `business-model`
-
-## Expected Deliverables
-
-- Evidence-based industry research.
-- A clearly defined and validated problem.
-- A comparison of existing solutions and competing approaches.
-- A working proof of concept or process-improvement demonstration.
-- A measurable impact model and pilot plan.
-- A commercialization roadmap.
-- A submission package for the 2026 innovation challenge.
-
-## Research Sources
-
-- Kenya Sugar Board: https://ksb.go.ke/
-- Miwa Bora: https://miwabora.go.ke/
-- Innovation challenge: https://sugarinnovation.go.ke/call-for-papers/
-
-Sources, publication dates, relevant findings, and limitations will
-be documented as research progresses.
+The repository will expand as implementation begins. Documentation and research materials will remain available to support technical decisions and validation.
 
 ## Contributing
 
-We welcome contributions to research, software, data analysis,
-agronomy, operations, design, and commercialization.
+We welcome contributions to software engineering, geospatial analysis, data science, agronomy, logistics, mill operations, user experience, and commercialization.
 
-1. Open an issue or select an existing task.
-2. Create a feature branch.
-3. Make focused, evidence-backed changes.
-4. Submit a pull request with a clear explanation.
-5. Include tests or supporting evidence where applicable.
+1. Review existing issues and documentation.
+2. Create a focused branch for your work.
+3. Make small, testable changes.
+4. Run relevant checks and tests.
+5. Submit a pull request with a clear description and evidence.
 
-Do not commit passwords, API keys, personal farmer records, confidential
-mill data, or other sensitive information.
+Do not commit passwords, API keys, private farmer information, confidential mill records, or other sensitive data. Use environment variables and local environment files for development secrets, and keep those files out of version control.
+
+## Research and references
+
+- Kenya Sugar Board: https://ksb.go.ke/
+- Sugar Industry Innovation Symposium & Expo 2026: https://sugarinnovation.go.ke/call-for-papers/
+- Miwa Bora: https://miwabora.go.ke/
+
+Additional sources, findings, assumptions, and limitations should be documented in `research/` as development progresses.
 
 ## License
 
-A license will be selected and added before the project is distributed
-for reuse. Until then, do not assume that public visibility grants
-permission to reuse the project's contents.
+A license has not yet been selected. Until one is added, do not assume that public availability of this repository grants permission to reuse its contents.
 
 ---
 
-Built collaboratively for practical innovation in Kenya's sugar industry.
+**SukariSol — connecting data, people, and operations across Kenya's sugar value chain.**
