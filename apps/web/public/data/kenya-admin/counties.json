@@ -1,0 +1,1600 @@
+[
+  {
+    "id": "KE030",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Baringo",
+      "en": "Baringo",
+      "slug": "baringo-ke030"
+    },
+    "code": {
+      "id": "KE030",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.726",
+      "lon": "36.019"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/baringo-ke030/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE036",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Bomet",
+      "en": "Bomet",
+      "slug": "bomet-ke036"
+    },
+    "code": {
+      "id": "KE036",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 5,
+      "ward": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.716",
+      "lon": "35.238"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/bomet-ke036/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE039",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Bungoma",
+      "en": "Bungoma",
+      "slug": "bungoma-ke039"
+    },
+    "code": {
+      "id": "KE039",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 9,
+      "ward": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.786",
+      "lon": "34.719"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/bungoma-ke039/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE040",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Busia",
+      "en": "Busia",
+      "slug": "busia-ke040"
+    },
+    "code": {
+      "id": "KE040",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 7,
+      "ward": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.376",
+      "lon": "34.265"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/busia-ke040/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE028",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Elgeyo-Marakwet",
+      "en": "Elgeyo-Marakwet",
+      "slug": "elgeyo-marakwet-ke028"
+    },
+    "code": {
+      "id": "KE028",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.745",
+      "lon": "35.561"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/elgeyo-marakwet-ke028/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE014",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Embu",
+      "en": "Embu",
+      "slug": "embu-ke014"
+    },
+    "code": {
+      "id": "KE014",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.533",
+      "lon": "37.665"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/embu-ke014/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE007",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Garissa",
+      "en": "Garissa",
+      "slug": "garissa-ke007"
+    },
+    "code": {
+      "id": "KE007",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.52",
+      "lon": "40.356"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/garissa-ke007/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE043",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Homa Bay",
+      "en": "Homa Bay",
+      "slug": "homa-bay-ke043"
+    },
+    "code": {
+      "id": "KE043",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 8,
+      "ward": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.562",
+      "lon": "34.315"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/homa-bay-ke043/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE011",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Isiolo",
+      "en": "Isiolo",
+      "slug": "isiolo-ke011"
+    },
+    "code": {
+      "id": "KE011",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 2,
+      "ward": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "1.006",
+      "lon": "38.748"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/isiolo-ke011/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE034",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kajiado",
+      "en": "Kajiado",
+      "slug": "kajiado-ke034"
+    },
+    "code": {
+      "id": "KE034",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 5,
+      "ward": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-2.112",
+      "lon": "36.778"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kajiado-ke034/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE037",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kakamega",
+      "en": "Kakamega",
+      "slug": "kakamega-ke037"
+    },
+    "code": {
+      "id": "KE037",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 12,
+      "ward": 60
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.497",
+      "lon": "34.801"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kakamega-ke037/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE035",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kericho",
+      "en": "Kericho",
+      "slug": "kericho-ke035"
+    },
+    "code": {
+      "id": "KE035",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.317",
+      "lon": "35.226"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kericho-ke035/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE022",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kiambu",
+      "en": "Kiambu",
+      "slug": "kiambu-ke022"
+    },
+    "code": {
+      "id": "KE022",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 12,
+      "ward": 60
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-1.034",
+      "lon": "36.843"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kiambu-ke022/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE003",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kilifi",
+      "en": "Kilifi",
+      "slug": "kilifi-ke003"
+    },
+    "code": {
+      "id": "KE003",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 7,
+      "ward": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-3.152",
+      "lon": "39.673"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kilifi-ke003/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE020",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kirinyaga",
+      "en": "Kirinyaga",
+      "slug": "kirinyaga-ke020"
+    },
+    "code": {
+      "id": "KE020",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.467",
+      "lon": "37.302"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kirinyaga-ke020/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE045",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kisii",
+      "en": "Kisii",
+      "slug": "kisii-ke045"
+    },
+    "code": {
+      "id": "KE045",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 9,
+      "ward": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.737",
+      "lon": "34.754"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kisii-ke045/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE042",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kisumu",
+      "en": "Kisumu",
+      "slug": "kisumu-ke042"
+    },
+    "code": {
+      "id": "KE042",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 7,
+      "ward": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.194",
+      "lon": "34.777"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kisumu-ke042/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE015",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kitui",
+      "en": "Kitui",
+      "slug": "kitui-ke015"
+    },
+    "code": {
+      "id": "KE015",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 8,
+      "ward": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-1.56",
+      "lon": "38.372"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kitui-ke015/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE002",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Kwale",
+      "en": "Kwale",
+      "slug": "kwale-ke002"
+    },
+    "code": {
+      "id": "KE002",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-4.121",
+      "lon": "39.066"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/kwale-ke002/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE031",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Laikipia",
+      "en": "Laikipia",
+      "slug": "laikipia-ke031"
+    },
+    "code": {
+      "id": "KE031",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 3,
+      "ward": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.289",
+      "lon": "36.825"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/laikipia-ke031/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE005",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Lamu",
+      "en": "Lamu",
+      "slug": "lamu-ke005"
+    },
+    "code": {
+      "id": "KE005",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 2,
+      "ward": 10
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-2.064",
+      "lon": "40.546"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/lamu-ke005/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE016",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Machakos",
+      "en": "Machakos",
+      "slug": "machakos-ke016"
+    },
+    "code": {
+      "id": "KE016",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 8,
+      "ward": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-1.276",
+      "lon": "37.395"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/machakos-ke016/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE017",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Makueni",
+      "en": "Makueni",
+      "slug": "makueni-ke017"
+    },
+    "code": {
+      "id": "KE017",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-2.254",
+      "lon": "37.877"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/makueni-ke017/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE009",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Mandera",
+      "en": "Mandera",
+      "slug": "mandera-ke009"
+    },
+    "code": {
+      "id": "KE009",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "3.231",
+      "lon": "40.711"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/mandera-ke009/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE010",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Marsabit",
+      "en": "Marsabit",
+      "slug": "marsabit-ke010"
+    },
+    "code": {
+      "id": "KE010",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "2.86",
+      "lon": "37.715"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/marsabit-ke010/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE012",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Meru",
+      "en": "Meru",
+      "slug": "meru-ke012"
+    },
+    "code": {
+      "id": "KE012",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 9,
+      "ward": 45
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.229",
+      "lon": "37.776"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/meru-ke012/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE044",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Migori",
+      "en": "Migori",
+      "slug": "migori-ke044"
+    },
+    "code": {
+      "id": "KE044",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 8,
+      "ward": 40
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-1.019",
+      "lon": "34.309"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/migori-ke044/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE001",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Mombasa",
+      "en": "Mombasa",
+      "slug": "mombasa-ke001"
+    },
+    "code": {
+      "id": "KE001",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-3.99",
+      "lon": "39.701"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/mombasa-ke001/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE021",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Murang'a",
+      "en": "Murang'a",
+      "slug": "muranga-ke021"
+    },
+    "code": {
+      "id": "KE021",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 7,
+      "ward": 35
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.829",
+      "lon": "37.004"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/muranga-ke021/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE047",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Nairobi",
+      "en": "Nairobi",
+      "slug": "nairobi-ke047"
+    },
+    "code": {
+      "id": "KE047",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 17,
+      "ward": 85
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-1.3",
+      "lon": "36.828"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/nairobi-ke047/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE029",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Nandi",
+      "en": "Nandi",
+      "slug": "nandi-ke029"
+    },
+    "code": {
+      "id": "KE029",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.227",
+      "lon": "35.124"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/nandi-ke029/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE033",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Narok",
+      "en": "Narok",
+      "slug": "narok-ke033"
+    },
+    "code": {
+      "id": "KE033",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-1.28",
+      "lon": "35.476"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/narok-ke033/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE046",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Nyamira",
+      "en": "Nyamira",
+      "slug": "nyamira-ke046"
+    },
+    "code": {
+      "id": "KE046",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.649",
+      "lon": "34.933"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/nyamira-ke046/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE018",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Nyandarua",
+      "en": "Nyandarua",
+      "slug": "nyandarua-ke018"
+    },
+    "code": {
+      "id": "KE018",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 5,
+      "ward": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.389",
+      "lon": "36.497"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/nyandarua-ke018/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE019",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Nyeri",
+      "en": "Nyeri",
+      "slug": "nyeri-ke019"
+    },
+    "code": {
+      "id": "KE019",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.314",
+      "lon": "36.93"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/nyeri-ke019/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE025",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Samburu",
+      "en": "Samburu",
+      "slug": "samburu-ke025"
+    },
+    "code": {
+      "id": "KE025",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 3,
+      "ward": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "1.541",
+      "lon": "36.942"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/samburu-ke025/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE041",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Siaya",
+      "en": "Siaya",
+      "slug": "siaya-ke041"
+    },
+    "code": {
+      "id": "KE041",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.058",
+      "lon": "34.2"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/siaya-ke041/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE006",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Taita Taveta",
+      "en": "Taita Taveta",
+      "slug": "taita-taveta-ke006"
+    },
+    "code": {
+      "id": "KE006",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-3.405",
+      "lon": "38.372"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/taita-taveta-ke006/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE004",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Tana River",
+      "en": "Tana River",
+      "slug": "tana-river-ke004"
+    },
+    "code": {
+      "id": "KE004",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 3,
+      "ward": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-1.535",
+      "lon": "39.55"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/tana-river-ke004/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE013",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Tharaka-Nithi",
+      "en": "Tharaka-Nithi",
+      "slug": "tharaka-nithi-ke013"
+    },
+    "code": {
+      "id": "KE013",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 3,
+      "ward": 15
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.191",
+      "lon": "37.96"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/tharaka-nithi-ke013/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE026",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Trans Nzoia",
+      "en": "Trans Nzoia",
+      "slug": "trans-nzoia-ke026"
+    },
+    "code": {
+      "id": "KE026",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 5,
+      "ward": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "1.046",
+      "lon": "34.981"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/trans-nzoia-ke026/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE023",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Turkana",
+      "en": "Turkana",
+      "slug": "turkana-ke023"
+    },
+    "code": {
+      "id": "KE023",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "3.162",
+      "lon": "35.313"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/turkana-ke023/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE027",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Uasin Gishu",
+      "en": "Uasin Gishu",
+      "slug": "uasin-gishu-ke027"
+    },
+    "code": {
+      "id": "KE027",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.478",
+      "lon": "35.304"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/uasin-gishu-ke027/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE038",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Vihiga",
+      "en": "Vihiga",
+      "slug": "vihiga-ke038"
+    },
+    "code": {
+      "id": "KE038",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 5,
+      "ward": 25
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "0.085",
+      "lon": "34.708"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/vihiga-ke038/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE008",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Wajir",
+      "en": "Wajir",
+      "slug": "wajir-ke008"
+    },
+    "code": {
+      "id": "KE008",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 6,
+      "ward": 30
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "1.94",
+      "lon": "40.025"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/wajir-ke008/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE024",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "West Pokot",
+      "en": "West Pokot",
+      "slug": "west-pokot-ke024"
+    },
+    "code": {
+      "id": "KE024",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 4,
+      "ward": 20
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "1.893",
+      "lon": "35.213"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/west-pokot-ke024/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  },
+  {
+    "id": "KE032",
+    "level": 1,
+    "level_name": {
+      "local": "County",
+      "en": "County"
+    },
+    "name": {
+      "local": "Nakuru",
+      "en": "Nakuru",
+      "slug": "nakuru-ke032"
+    },
+    "code": {
+      "id": "KE032",
+      "iso": null
+    },
+    "parent": null,
+    "ancestors": [],
+    "children_count": {
+      "subcounty": 11,
+      "ward": 55
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "-0.458",
+      "lon": "36.1"
+    },
+    "metadata": {},
+    "source": {
+      "name": "Open Admin Data",
+      "url": "https://openadmindata.org/ke/counties/nakuru-ke032/",
+      "api": "https://openadmindata.org/api/ke/"
+    }
+  }
+]

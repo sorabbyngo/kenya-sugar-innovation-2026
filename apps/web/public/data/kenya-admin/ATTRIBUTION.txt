@@ -1,0 +1,4 @@
+Dataset: Kenya Administrative Divisions
+Source: https://github.com/open-admin-data/kenya-administrative-divisions
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Source data is retained for validation and attribution.

@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local databases and backups
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Local logs
+*.log

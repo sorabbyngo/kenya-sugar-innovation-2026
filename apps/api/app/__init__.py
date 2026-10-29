@@ -1,0 +1,1 @@
+"""SukariSol API application package."""

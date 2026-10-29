@@ -1,0 +1,482 @@
+.field-explorer-page {
+  display: grid;
+  gap: 22px;
+}
+
+.field-explorer-intro,
+.field-map-heading,
+.field-map-footer,
+.field-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.field-explorer-intro h2 {
+  margin: 8px 0;
+  font-family: Manrope, sans-serif;
+  font-size: clamp(26px, 3vw, 34px);
+  letter-spacing: -1px;
+}
+
+.field-explorer-intro p,
+.field-map-heading p,
+.field-next-step p {
+  margin: 0;
+  color: #718578;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.field-status-pill,
+.field-map-chip,
+.field-planned-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 11px;
+  border: 1px solid #dce7dd;
+  border-radius: 999px;
+  color: #456352;
+  background: #fff;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.field-status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2b9a61;
+}
+
+.field-explorer-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 330px) minmax(0, 1fr);
+  align-items: start;
+  gap: 18px;
+}
+
+.field-tools {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+}
+
+.field-tools h3,
+.field-map-heading h3,
+.field-next-step h3 {
+  margin: 0;
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+}
+
+.field-muted {
+  margin: -5px 0 2px;
+  color: #718578;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.field-search-form {
+  display: grid;
+  gap: 8px;
+}
+
+.field-search-form label,
+.field-label {
+  color: #456352;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.field-search-form input,
+.field-search-form select,
+.field-name-input {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 11px;
+  border: 1px solid #dce7dd;
+  border-radius: 8px;
+  color: #172a22;
+  background: #fff;
+  font-size: 12px;
+}
+
+.field-search-row {
+  display: flex;
+  gap: 7px;
+}
+
+.field-search-row input {
+  flex: 1;
+}
+
+.field-search-row button,
+.field-import-button,
+.field-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background: #20543b;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.field-search-row button:disabled {
+  cursor: wait;
+  opacity: .65;
+}
+
+.field-tools hr {
+  width: 100%;
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid #e5ece5;
+}
+
+.field-place-results {
+  display: grid;
+  gap: 6px;
+  padding: 10px;
+  border: 1px solid #e0e9e0;
+  border-radius: 10px;
+  background: #f8faf7;
+}
+
+.field-place-results > strong {
+  margin-bottom: 3px;
+  font-size: 11px;
+}
+
+.field-place-result {
+  display: grid;
+  gap: 4px;
+  padding: 9px;
+  border: 1px solid #e4ebe4;
+  border-radius: 7px;
+  color: #253d2f;
+  background: #fff;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.field-place-result span {
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.field-place-result small {
+  color: #36734e;
+  font-size: 10px;
+}
+
+.field-search-message,
+.field-boundary-message {
+  margin: 0;
+  color: #8a6330;
+  font-size: 11px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.field-import-button {
+  position: relative;
+  width: 100%;
+  color: #20543b;
+  border: 1px dashed #9ab5a1;
+  background: #f4f8f1;
+}
+
+.field-import-button input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.field-button-row {
+  justify-content: stretch;
+}
+
+.field-secondary-button {
+  flex: 1;
+  color: #345b43;
+  border: 1px solid #dce7dd;
+  background: #fff;
+}
+
+.field-summary {
+  display: grid;
+  gap: 7px;
+  padding: 13px;
+  border-radius: 9px;
+  background: #f2f6f0;
+  color: #456352;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.field-summary strong {
+  color: #1b3828;
+  font-size: 13px;
+}
+
+.field-summary-label {
+  color: #718578;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.field-map-card {
+  min-width: 0;
+  padding: 18px;
+}
+
+.field-map-heading {
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.field-map-heading p {
+  margin-top: 6px;
+}
+
+.field-map-canvas {
+  width: 100%;
+  height: clamp(420px, 62vh, 680px);
+  min-height: 360px;
+  border-radius: 10px;
+  background: #e9eee8;
+  z-index: 0;
+}
+
+.field-map-footer {
+  flex-wrap: wrap;
+  margin-top: 10px;
+  color: #718578;
+  font-size: 10px;
+}
+
+.field-next-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px;
+}
+
+.field-next-step h3 {
+  margin: 8px 0;
+}
+
+.field-planned-pill {
+  flex-shrink: 0;
+  color: #7b6330;
+  border-color: #eadfbd;
+  background: #fbf7e9;
+}
+
+.leaflet-container {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.leaflet-control-attribution {
+  font-size: 9px !important;
+}
+
+@media (max-width: 1050px) {
+  .field-explorer-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .field-tools {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .field-tools > h3,
+  .field-tools > .field-muted,
+  .field-tools > .field-search-form,
+  .field-tools > .field-place-results,
+  .field-tools > hr,
+  .field-tools > .field-boundary-message,
+  .field-tools > .field-summary {
+    grid-column: 1 / -1;
+  }
+
+  .field-tools > hr {
+    margin: 3px 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .field-explorer-intro,
+  .field-next-step {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .field-tools {
+    grid-template-columns: 1fr;
+  }
+
+  .field-tools > * {
+    grid-column: 1 !important;
+  }
+
+  .field-map-card {
+    padding: 10px;
+  }
+
+  .field-map-heading {
+    flex-direction: column;
+  }
+
+  .field-map-canvas {
+    height: 430px;
+    min-height: 330px;
+  }
+}
+
+.field-draw-instructions {
+  margin: 0 0 12px;
+  color: #456352;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* Agricultural polygon discovery */
+.field-discover-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #20543b;
+  border-radius: 8px;
+  color: #fff;
+  background: #20543b;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background .15s ease, opacity .15s ease;
+}
+
+.field-discover-button:hover {
+  background: #17442f;
+}
+
+.field-discover-button:disabled {
+  cursor: wait;
+  opacity: .65;
+}
+
+.field-discovery-message {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #e0e9e0;
+  border-radius: 8px;
+  color: #456352;
+  background: #f8faf7;
+  font-size: 11px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.field-discovery-count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 9px;
+  color: #456352;
+  background: #f2f6f0;
+  font-size: 11px;
+}
+
+.field-discovery-count strong {
+  color: #20543b;
+  font-family: Manrope, sans-serif;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.field-selected-area {
+  display: grid;
+  gap: 8px;
+  padding: 13px;
+  border: 1px solid #ead9ae;
+  border-radius: 10px;
+  color: #5f512f;
+  background: #fffaf0;
+  font-size: 11px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.field-selected-area > strong {
+  color: #493719;
+  font-size: 13px;
+}
+
+.field-data-warning {
+  color: #806b40;
+  font-size: 10px;
+}
+
+.field-clear-discovery {
+  width: 100%;
+  flex: initial;
+}
+
+.field-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-bottom: 12px;
+  color: #456352;
+  font-size: 10px;
+}
+
+.field-map-legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.field-legend-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid;
+  border-radius: 3px;
+}
+
+.field-legend-discovered {
+  border-color: #238653;
+  background: #67bd83;
+}
+
+.field-legend-selected {
+  border-color: #d97706;
+  background: #f4b942;
+}
+
+.field-map-canvas .leaflet-interactive {
+  cursor: pointer;
+}
+
+@media (max-width: 620px) {
+  .field-map-legend {
+    gap: 8px 12px;
+  }
+}
